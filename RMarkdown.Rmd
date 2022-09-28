@@ -1,0 +1,15 @@
+---
+title: "myFirstRMarkdown"
+author: "Rohit"
+date: "2022-09-28"
+output: html_document
+---
+
+```{r animals}
+animals <- c("Snake", "Ostrich", "Cat", "Spider")
+animals_df = data.frame(animals)
+```
+
+```{r print}
+print(animals_df, right=TRUE, row.names=TRUE)
+```
